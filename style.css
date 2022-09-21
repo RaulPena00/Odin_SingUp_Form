@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+button{
+    all:unset;
+    cursor: pointer
+}
+
+.main-container{
+    display: flex;
+    font-family: sans-serif;
+    font-weight: bold;
+    height: 100vh;
+    width: auto;
+}
+
+.img-container{
+    display: flex;
+    width: 40%;
+    position:relative;
+    background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+}
+
+.logo{
+    height: 250px;
+    width: 100%;
+    background-color: black;
+}
+
+.img-container>img{
+    width:100%;
+    height: auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.text-container{
+    background-color: #f9fafb;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    height: 33.3%;
+}
+
+.text{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 100vh;
+    font-size: 20px;
+}
+
+
+.sing-container{
+    height: 33.3%;
+    display: inline-flex;
+    flex-direction: column;
+    box-shadow: 0px 10px black;
+}
+
+.sign-style{
+    display: flex;
+}
+
+.sing-message{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+
+.form-container{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+    margin: 50px;
+}
+
+.form-container>input{
+    border: 1px solid #E5E7EB;
+    margin-bottom: 5px;
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.form-container>label{
+    align-self: start;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.footer{
+    background-color: #f9fafb;
+    display: flex;
+    align-items: center;
+    height: 33.3%;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    align-self: flex-start;
+}
+
+.button-style{
+    background-color: #596D48;
+    display: flex;
+    width: 250px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
