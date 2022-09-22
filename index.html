@@ -12,21 +12,22 @@
 <body>
     <div class="main-container">
         <div class="img-container">
-            <div>
-                <img src="images/odin-lined.png">
+            <div class="logo-background">
+                <div class="logo">
+                    <img src="images/odin-lined.png">
+                    <p>Odin</p>
+                </div>
             </div>
         </div>
 
         <div class="container">
 
-
-
             <div class="text-container">
                 <div class="text">
                     <p>This is not a real online service! You know you need something like this in your life to help you
                         realize
-                        your deepest dreams. Sing up now to get started.</p><br>
-                    <p>You know you want to.</p>
+                        your deepest dreams. Sing up <i>now</i> to get started.</p><br>
+                    <p>You <i>know</i> you want to.</p>
                 </div>
             </div>
 
@@ -37,7 +38,6 @@
                         <h2>Let's do this!</h2>
                     </div>
 
-
                     <form action="">
                         <div class="form-container">
                             <label for="first_name">FIRST NAME</label>
@@ -45,7 +45,7 @@
                             <label for="email">EMAIL</label>
                             <input type="text" id="email">
                             <label for="password">*PASSWORD</label>
-                            <input type="text" id="password" required>
+                            <input type="text" id="password" pattern=".{8}" title="Eight or more characters"required>
                         </div>
                         <div class="form-container">
                             <label for="last_name">LAST NAME</label>
@@ -53,7 +53,7 @@
                             <label for="phone_number">PHONE NUMBER</label>
                             <input type="text" id="phone_number">
                             <label for="confirm_passoword">CONFIRM PASSWORD</label>
-                            <input type="text" id="confirm_passoword">
+                            <input type="text" id="confirm_passoword" required>
                         </div>
                 </div>
             </div>
